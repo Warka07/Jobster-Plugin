@@ -1,0 +1,21 @@
+{
+  "name": "nhrdev/jobdesk",
+  "description": "JobDesk® System Management Plugin for WordPress",
+  "type": "wordpress-plugin",
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "JobDesk®",
+      "email": "admin@jobdesk.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "JobDesk\\Includes\\FrontEnd\\": "./includes/front-end",
+      "JobDesk\\Classes\\": "./classes"
+    },
+    "files": [ "includes/functions.php" ]
+  }
+}

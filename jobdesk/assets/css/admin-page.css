@@ -1,0 +1,185 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+form .inline-date-inputs input {
+    width: 100px;
+}
+
+.nrr-form small {
+    color: #cc2929;
+}
+
+.succeed-msg,
+.warning-msg {
+    background: firebrick;
+    padding: 10px;
+    color: #eee;
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.succeed-msg {
+    background-color: forestgreen;
+}
+
+.inline-error {
+    font-size: 14px;
+    margin: 1px 0 1px 0;
+    transition: 0.3s;
+}
+
+input {
+    border:none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px 0;
+    color: #333;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn {
+    border:none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px 0;
+    color: #fff;
+    background-color: #2271b1;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn.btn-danger {
+    background-color: firebrick !important;
+}
+
+.dss-logo-preview {
+    width: 98%;
+    height: 300px;
+    background: white;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.dss-logo-preview img {
+    border: 1px dotted #333;
+    transition: 0.3s;
+}
+
+button.btn {
+    border: none;
+    border-radius: 5px;
+    background: #2271b1;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+button.btn#dss-wp-media-uploader-btn {
+    margin-right: 10px;
+}
+
+button.btn:disabled,
+button.btn.btn-danger:disabled {
+    background-color: #ddd;
+    color: #333;
+    cursor: not-allowed;
+}
+
+input {
+    padding: 8px 12px;
+    font-size: 15px;
+    margin: 5px 0;
+    max-width: calc(100% - 10px);
+    width: 350px;
+}
+
+.dss-setting-form .mb-2 {
+    margin-bottom: 10px;
+}
+
+.dss-setting-form .inline-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.dss-setting-form .inline-btns input {
+    width: 48%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dss-setting-form .inline-btns.column {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+}
+
+.dss-setting-form .inline-btns.column input {
+    width: 100%;
+}
+
+.dss-setting-form .inline-btns input.small {
+    width: 80px;
+}
+
+.dss-setting-form input.medium {
+    width: 150px;
+}
+
+.dss-setting-form .inline-btns input.auto-width {
+    width: auto;
+}
+
+.dss-setting-form .inline-btns input.mr-2 {
+    margin-right: 10px;
+}
+
+.dss-hint {
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  border-radius: 5px;
+  font-style: italic;
+  color: firebrick;
+  margin: 10px 0;
+}
+
+.dss-hint code {
+  background: #222;
+  color: #eee;
+  padding: 5px;
+  border-radius: 3px;
+  font-style: normal;
+}
+
+textarea {
+    padding: 5px 7px;
+    font-weight: bold;
+}
